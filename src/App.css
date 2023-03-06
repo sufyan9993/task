@@ -2,37 +2,60 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.LoginPage {
+  margin: 10% auto;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 30px;
+  width: fit-content;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.LoginPage input {
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.sections{
+  height: 70vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 20px;
+}
+.sections>div{
+  border: 1px solid black;
+  height: 100%;
+  width: 300px;
+  overflow-y: scroll;
+}
+
+.btn{
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.addElement input,select{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.elements{
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid ;
+  margin: 10px 30px;
+  background-color: blueviolet;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.elementContainer{
+  border:1px solid black;
+  padding-bottom:100px ;
 }
